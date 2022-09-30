@@ -1,0 +1,47 @@
+.homepage__content {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-family: Helvetica;
+  font-size: 64px;
+  padding: 1px 0px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+}
+.homepage__content > :nth-child(1) {
+  text-align: right;
+  color: #240d57;
+}
+.homepage__content > :nth-child(2) {
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
+}
+.homepage__content > :nth-child(3) {
+  color: #240d57;
+  text-align: right;
+}
+.homepage__contentR p {
+  display: flex;
+  text-align: right !important;
+}
+.homepage__contentButton {
+  display: flex;
+  float: right;
+}
+.homepage__contentButton button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  border: none;
+  width: 320px;
+  height: 55px;
+}
+.homepage__contentButton button a {
+  color: #fff;
+  text-decoration: none;
+}
